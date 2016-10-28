@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lib</string>
+    <string name="default_name">Default Name</string>
+    <string name="default_title">Default Title</string>
+</resources>

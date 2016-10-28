@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sample.j.namecard.MainActivity">
+
+    <com.sample.j.lib.NameCard
+        android:id="@+id/nc_tom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:ncPhoto="@drawable/ic_person_black_36dp"
+        custom:ncName="@string/name_tom"
+        custom:ncTitle="@string/title_tom"/>
+
+    <Button
+        android:id="@+id/change_info"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change info"/>
+
+</LinearLayout>
